@@ -10,7 +10,7 @@ Git reset --hard código de versión guardada: Retorna el archivo a la versión 
 git remote add origin https://github.com/LABUEZO/Aprendiendo-Git-GitHub.git : subir un repositorio a GitHub
 git branch -M master: elijo la raiz de donde cargarlo.... falta entender.
 git push -u origin master : subir modificaciones al repositorio existente
-git tag versión "descripción" : definimos la versión para el proyecto una vez terminado
+git tag versión -m "descripción" : definimos la versión para el proyecto una vez terminado
 git push --tags : sube los tags a la nube, en github
 Git clone url : permite clonar un proyecto que está en github (recupero el proyecto)
 
