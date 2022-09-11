@@ -1,0 +1,11 @@
+Para iniciar repositorio:
+	git init 
+Para ver el estado de los archivos:
+	git status -s
+Para agregar archivos al Staging Area:
+	git add   (indicar el nombre del archivo a agregar)
+	git add . (con el punto agrega todos los archivos)
+Para enviar el archivo del staging area al Repositorio:
+	git commit -m "comentario del cambio"
+Para ver los commit que tenemos guardado:
+	git log --oneline
